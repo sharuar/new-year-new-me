@@ -1,0 +1,82 @@
+/* shared value */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+.btn-primary{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 7px;
+    background-color: #FD6E0A;
+    
+}
+
+.section-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* header */
+.banner-section{
+    position: relative;
+    display: inline-block;
+}
+
+.banner-section img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overplay-text{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: none;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0px 0px 30px;
+}
+
+.banner-description{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px 0px 40px;
+}
+
+
+/* main */
+/* section failur */
+
+.my-failur{
+    margin: 200px 250px 50px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li:before {
+    content: '\2713';
+    display: inline-block;
+    color: rgb(6, 236, 64);
+    padding: 0 6px 0 0;
+  }
+  
+  ul li {
+    list-style: none;
+    font-size: 1em;
+  }
+
+.my-failur-details{
+    margin-left: 100px;
+}
