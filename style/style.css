@@ -90,10 +90,6 @@ ul li:before {
 }
 
 /* plan */
-.plan-section{
-   
-}
-
 .section-title{
     text-align: center;
     margin-bottom: 70px;
@@ -107,10 +103,6 @@ ul li:before {
     gap: 50px;
     margin-left: 100px;
 }
-.skill-item{
-    
-}
-
 .skill-title{
     font-size: 30px;
     font-weight: 700;
@@ -143,8 +135,7 @@ ul li:before {
     margin-top: 0px;
     max-width: 400px;
 }
-.mind-set{    
-}
+
 .mind-title{
     font-size: 35px;
     font-weight: 700;
@@ -159,4 +150,44 @@ ul li:before {
     border-radius: 7px;
     background-color: #fff;
     
+}
+
+/* footer section */
+footer{
+    color: #fff;
+    background-color: black;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: right;
+    padding: 150px 200px;
+}
+.social-link a{
+    margin-right: 20px;
+}
+.future-description{
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 700px;
+}
+.footer-form input{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size: 20px;
+    width: 100%;
+    border: 1px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    background-color: #474747;
+}
+
+.footer-form{
+    text-align: left;
+}
+.form-title{
+    text-align: left;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
 }
