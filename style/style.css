@@ -56,10 +56,18 @@ body{
 
 
 /* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
 /* section failur */
 
 .my-failur{
-    margin: 200px 250px 50px 300px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,4 +87,76 @@ ul li:before {
 
 .my-failur-details{
     margin-left: 100px;
+}
+
+/* plan */
+.plan-section{
+   
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.skill-list{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    margin-left: 100px;
+}
+.skill-item{
+    
+}
+
+.skill-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(56, 53, 53);
+}
+
+.skill-description{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #474747;
+}
+.mind-section{
+    position: relative;
+    display: inline-block;
+}
+.mind-section img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mind-over-play{
+    position: absolute;
+    color: #fff;
+    transform: translate(-60%, -100%);
+    background-color: none;
+    padding: 10px 20px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 0px;
+    max-width: 400px;
+}
+.mind-set{    
+}
+.mind-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.btn-mind{
+    color: #FD6E0A;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 7px;
+    background-color: #fff;
+    
 }
